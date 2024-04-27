@@ -16,5 +16,6 @@ data "aws_ami" "example" {
 }
 
 variable "name" {
-  default = [frontend ,mongodb,catalogue,redis,user,cart,mysql,shipping, rabbitmq, payment,dispatch]
+  default = ["frontend" ,"mongodb","catalogue","redis","user","cart","mysql","shipping", "rabbitmq", "payment","dispatch"]
+
 }
