@@ -14,5 +14,5 @@ variable "subjects" {
 }
 
 output "subjects" {
-  value = element(var.subjects, count.index )
+  value = var.subjects[0]
 }
